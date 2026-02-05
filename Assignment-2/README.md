@@ -15,3 +15,14 @@ PostgreSQL Integration: Configuring a database container and connecting it with 
 Practical Commands: Examples of docker run, docker exec, docker compose up, and resource management.
 
 This project helps in understanding how to create, manage, and orchestrate containers in a local development environment.
+
+
+<img width="1366" height="768" alt="Screenshot 2026-02-05 130042" src="https://github.com/user-attachments/assets/8f8f4ded-4c5b-4d0c-a623-2c41ab6fda04" />
+<img width="1366" height="768" alt="Screenshot 2026-02-05 130450" src="https://github.com/user-attachments/assets/c95a2a2c-f6d4-4c1d-8170-b47b4780e69a" />
+This demonstrates a multi-container Docker application using Flask and Redis. The Flask web application runs inside a Docker container and connects to a Redis container to maintain a persistent visitor counter. A custom Docker network is used to enable inter-container communication, and a Docker volume ensures Redis data persistence across container restarts.
+Technologies Used
+Docker
+Python Flask
+Redis
+Docker Networking
+Docker Volumes
